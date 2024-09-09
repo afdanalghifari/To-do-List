@@ -3,7 +3,6 @@ const list = document.getElementById("list")
 function onFormSubmit (e) {
     e.preventDefault()
     const inputValue = e.target.children[0].value
-    console.log(inputValue)
 
     list.appendChild(createListItem(inputValue))
 }
